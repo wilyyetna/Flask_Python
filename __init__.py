@@ -2,7 +2,7 @@ from flask import Flask
 from flask import render_template
 from flask import json                                                                                                                                     
 app = Flask(__name__)                                                                                                                  
-
+#comment
 
 @app.route('/<int:valeur>')
 def exercice(valeur):
@@ -11,6 +11,6 @@ def exercice(valeur):
         etoiles += '*'
     return etoiles
 
-#comment
+
 if __name__ == "__main__":
   app.run(debug=True)
