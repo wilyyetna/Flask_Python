@@ -11,6 +11,6 @@ def exercice(valeur):
         etoiles += '*'
     return etoiles
 
-
+#comment
 if __name__ == "__main__":
   app.run(debug=True)
