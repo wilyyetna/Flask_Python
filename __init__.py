@@ -1,7 +1,6 @@
 from flask import Flask
 from flask import render_template
 from flask import json
-
 app = Flask(name)
 
 @app.route('/<int:valeur>')
