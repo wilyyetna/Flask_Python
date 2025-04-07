@@ -1,4 +1,4 @@
-rom flask import Flask
+from flask import Flask
 
 app = Flask(name)
 
@@ -26,3 +26,4 @@ Retourner le résultat formaté
 
 if name == "main":
     app.run(debug=True)
+
