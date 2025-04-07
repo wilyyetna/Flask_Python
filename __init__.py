@@ -1,5 +1,3 @@
-
-
 rom flask import Flask
 
 app = Flask(name)
